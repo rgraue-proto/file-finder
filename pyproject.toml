@@ -1,0 +1,12 @@
+[project]
+name = "file-finder"
+version = "0.1.0"
+description = "find files"
+requires-python = ">=3.14"
+dependencies = [
+    "google>=3.0.0",
+    "httpx>=0.28.1",
+    "langchain>=1.2.15",
+    "langchain-ollama>=1.1.0",
+    "pinecone>=8.0.1",
+]

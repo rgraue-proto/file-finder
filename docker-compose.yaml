@@ -1,0 +1,8 @@
+services:
+ index:
+    image: ghcr.io/pinecone-io/pinecone-local:latest
+    environment:
+      PORT: 5081
+      PINECONE_HOST: localhost
+    ports:
+      - "5080-5090:5080-5090"
